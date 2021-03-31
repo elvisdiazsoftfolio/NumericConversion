@@ -14,7 +14,8 @@ public class NumericConversion {
         if (hex.startsWith("0x")){
            hex = hex.substring(2);
     }
-        return Integer.parseInt(hex,16); }
+        return Integer.parseInt(hex,16); 
+    }
     public static short hexCharDecode(char digit) {
         String newDigit=String.valueOf(digit);
         return (short) Integer.parseInt(newDigit,16);
